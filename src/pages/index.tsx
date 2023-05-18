@@ -27,7 +27,7 @@ const RecentTweets = () => {
       isError={tweets.isError}
       isLoading={tweets.isLoading}
       hasMore={tweets.hasNextPage}
-      fetchNewTweets={tweets.fetchNextPage()}
+      fetchNewTweets={tweets.fetchNextPage}
     />
   );
 };
