@@ -4,7 +4,6 @@ import InfiniteTweetList from "~/components/InfiniteTweetList";
 import { api } from "~/utils/api";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
-import button from "~/components/Button";
 
 const TABS = ["Recent", "Following"] as const;
 

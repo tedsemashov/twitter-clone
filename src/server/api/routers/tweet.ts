@@ -1,6 +1,6 @@
 import { z } from "zod";
+import type { createTRPCContext } from "~/server/api/trpc";
 import {
-  createTRPCContext,
   createTRPCRouter,
   protectedProcedure,
   publicProcedure,

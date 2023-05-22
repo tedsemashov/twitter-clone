@@ -1,13 +1,8 @@
 import Button from "~/components/Button";
 import ProfileImage from "~/components/ProfileImage";
 import { useSession } from "next-auth/react";
-import {
-  FormEvent,
-  useCallback,
-  useLayoutEffect,
-  useRef,
-  useState,
-} from "react";
+import type { FormEvent } from "react";
+import { useCallback, useLayoutEffect, useRef, useState } from "react";
 import { api } from "~/utils/api";
 
 const updateTextAreaSize = (textArea?: HTMLTextAreaElement) => {
